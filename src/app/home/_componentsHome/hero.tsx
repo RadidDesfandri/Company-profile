@@ -1,12 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import logo from '../components/images/ai.png'
+import logo from '@/app/components/images/ai.png'
 
-function HomePage() {
+function Hero() {
     return (
-        <section id='home' className='w-full  pt-10 max-w-8xl bg-[#0C0C0C] '>
-            ?
-            <div className=' max-w-6xl mx-auto pt-16 relative'>
+        <section className='w-full  pt-10 max-w-7xl bg-[#0C0C0C] '>
+            <div className='mx-auto pt-16 relative'>
                 <div className='absolute w-44 h-44 lg:w-60 lg:h-60 bg-blue-600 rounded-full blur-[100px] opacity-70 lg:left-64 lg:top-16 lg:opacity-60 animate-pulse'></div>
                 <div className='hidden lg:flex'>
                     <div className='absolute w-32 h-32 bg-blue-600 rounded-full top-80 left-[800px] blur-[100px] animate-pulse '></div>
@@ -36,9 +35,8 @@ function HomePage() {
                     </div>
                 </div>
             </div>
-
         </section>
     )
 }
 
-export default HomePage
+export default Hero

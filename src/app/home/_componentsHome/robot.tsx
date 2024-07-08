@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
-import robot1 from '../components/images/robot1.jpeg'
-import robot2 from '../components/images/robot2.jpeg'
+import robot1 from '@/app/components/images/robot1.jpeg'
+import robot2 from '@/app/components/images/robot2.jpeg'
 
 
-function AboutUs() {
+function Robot() {
     return (
-        <section id='about' className='w-full max-w-8xl bg-[#0C0C0C] lg:bg-stone-950 py-20 lg:pb-0'>
+        <section className='w-full max-w-8xl bg-[#0C0C0C] lg:bg-stone-950 py-20 lg:pb-0'>
             <div className=' max-w-6xl mx-auto'>
                 <div className='flex flex-wrap justify-between px-10'>
                     <div className='h-[606px] lg:w-1/2 mb-10'>
@@ -36,4 +36,4 @@ function AboutUs() {
     )
 }
 
-export default AboutUs
+export default Robot

@@ -1,24 +1,22 @@
 import React from 'react'
-import tailwind from '../components/images/tailwind.svg'
-import microsoft from '../components/images/microsoft.svg'
-import google from '../components/images/google.svg'
-import github from '../components/images/github.svg'
-import discord from '../components/images/discord.svg'
-import chatgpt from '../components/images/chatgpt.svg'
-import ansible from '../components/images/ansible.svg'
-import algolia from '../components/images/algolia.svg'
-import akamai from '../components/images/akamai.svg'
+import tailwind from '@/app/components/images/tailwind.svg'
+import microsoft from '@/app/components/images/microsoft.svg'
+import google from '@/app/components/images/google.svg'
+import github from '@/app/components/images/github.svg'
+import discord from '@/app/components/images/discord.svg'
+import chatgpt from '@/app/components/images/chatgpt.svg'
+import ansible from '@/app/components/images/ansible.svg'
 import Image from 'next/image'
 
-const itemClient = [
-  { gambar: {tailwind} }
-]
+// const itemClient = [
+//   { gambar: {tailwind} }
+// ]
 
 function Client() {
   return (
-    <section id='client' className='bg-gray-900 lg:bg-[#0C0C0C] h-80 flex  flex-col justify-center'>
+    <section className='lg:bg-gray-900 bg-[#0C0C0C] h-80 flex  flex-col justify-center'>
       <div className='text-center text-white text-xl lg:text-2xl font-semibold'>
-        <p className='lg:text-base text-sm text-blue-500'>Client</p>
+        {/* <p className='lg:text-base text-sm text-blue-500'>Client</p> */}
         <h1>Has collaborated with several companies</h1>
         <h2 className='font-normal text-gray-400 text-xs lg:text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate maiores sint natus sequi reiciendis, odit fugit quos. Iste?</h2>
       </div>
