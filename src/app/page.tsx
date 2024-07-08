@@ -1,5 +1,8 @@
 import Navbar from "./components/navbar";
-import HomePage from "./home/home";
+import AboutUs from "./page/about";
+import HomePage from "./page/home";
+import Support from "./page/client";
+import Client from "./page/client";
 
 export default function Home() {
   return (
@@ -7,8 +10,9 @@ export default function Home() {
       <div>
         <Navbar />
         <HomePage/>
+        <AboutUs/>
+        <Client/>
       </div>
-
     </>
   );
 }

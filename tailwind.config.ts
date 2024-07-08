@@ -8,11 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      keyframes:{
+        infinite_scroll: {
+          "100%": {transform: "translate(-50%)"},
+        },
       },
+      animation:{ infinite_scroll: "infinite_scroll 50s linear infinite"},
     },
   },
   plugins: [],
