@@ -4,7 +4,7 @@ import logo from '@/app/components/images/ai.png'
 
 function Hero() {
     return (
-        <section className='w-full  pt-10 max-w-7xl bg-[#0C0C0C] '>
+        <section className='w-full pt-16 max-w-7xl bg-[#0C0C0C] '>
             <div className='mx-auto pt-16 relative'>
                 <div className='absolute w-44 h-44 lg:w-60 lg:h-60 bg-blue-600 rounded-full blur-[100px] opacity-70 lg:left-64 lg:top-16 lg:opacity-60 animate-pulse'></div>
                 <div className='hidden lg:flex'>

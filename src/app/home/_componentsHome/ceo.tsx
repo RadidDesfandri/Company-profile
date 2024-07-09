@@ -3,6 +3,7 @@ import React from 'react'
 import person1 from '@/app/components/images/person11.jpg'
 import person2 from '@/app/components/images/person2.jpg'
 import person3 from '@/app/components/images/person3.jpg'
+import Link from 'next/link'
 
 function Ceo() {
     return (
@@ -25,7 +26,7 @@ function Ceo() {
                     </p>
                     <p className='text-gray-200 mb-8 px-4 text-sm  md:text-base w-[400px]'>We value these differences – they’re what make creativity and innovation flourish.</p>
                     <p className='text-gray-200 mb-16 px-4 text-sm  md:text-base w-[400px]'>We want Alpha to be the best place to work for people who share our passion.</p>
-                    <a href='#' className='px-4 flex gap-2 items-center  text-blue-600 font-bold mb-20  md:mb-0'>Join Our Team <span className=''><svg xmlns="http://www.w3.org/2000/svg" width={15} viewBox="0 0 24 24" fill="currentColor"><path d="M10 3V5H5V19H19V14H21V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H10ZM17.5858 5H13V3H21V11H19V6.41421L12 13.4142L10.5858 12L17.5858 5Z"></path></svg></span></a>
+                    <Link href='#' className='px-4 flex gap-2 items-center  text-blue-600 font-bold mb-20  md:mb-0'>Join Our Team <span className=''><svg xmlns="http://www.w3.org/2000/svg" width={15} viewBox="0 0 24 24" fill="currentColor"><path d="M10 3V5H5V19H19V14H21V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H10ZM17.5858 5H13V3H21V11H19V6.41421L12 13.4142L10.5858 12L17.5858 5Z"></path></svg></span></Link>
                 </div>
             </div>
             {/* Person 1 end */}
@@ -47,7 +48,7 @@ function Ceo() {
                         <p className='text-gray-200 mb-8 px-4 text-3xl font-bold md:text-4xl w-[400px]'>Executive Committee
                         </p>
                         <p className='text-gray-200 mb-8 px-4 text-sm  md:text-base w-[400px] md:w-[350px]'>The Executive Committee operates under the chairmanship of the Chief Executive Officer and supports the Board of Management in the deployment of Alpha strategy and policies, and the achievement of its objectives and results.</p>
-                        <a href='#' className='px-4 flex gap-2 items-center  text-blue-600 font-bold mb-20  md:mb-0'>Meet our Executive Committee members <span className=''><svg xmlns="http://www.w3.org/2000/svg" width={15} viewBox="0 0 24 24" fill="currentColor"><path d="M10 3V5H5V19H19V14H21V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H10ZM17.5858 5H13V3H21V11H19V6.41421L12 13.4142L10.5858 12L17.5858 5Z"></path></svg></span></a>
+                        <Link href='#' className='px-4 flex gap-2 items-center  text-blue-600 font-bold mb-20  md:mb-0'>Meet our Executive Committee members <span className=''><svg xmlns="http://www.w3.org/2000/svg" width={15} viewBox="0 0 24 24" fill="currentColor"><path d="M10 3V5H5V19H19V14H21V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H10ZM17.5858 5H13V3H21V11H19V6.41421L12 13.4142L10.5858 12L17.5858 5Z"></path></svg></span></Link>
                     </div>
                 </div>
             </div>
@@ -69,7 +70,7 @@ function Ceo() {
                     </p>
                     <p className='text-gray-200 mb-8 px-4 text-sm  md:text-base w-[400px] md:w-[350px]'>
                         As a separate and independent body, the Supervisory Board supervises the policies of the executive management and the general course of affairs of Alpha and advises the executive management.</p>
-                    <a href='#' className='px-4 flex gap-2 items-center  text-blue-600 font-bold mb-20  md:mb-0'>Meet our Supervisory Board members <span className=''><svg xmlns="http://www.w3.org/2000/svg" width={15} viewBox="0 0 24 24" fill="currentColor"><path d="M10 3V5H5V19H19V14H21V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H10ZM17.5858 5H13V3H21V11H19V6.41421L12 13.4142L10.5858 12L17.5858 5Z"></path></svg></span></a>
+                    <Link href='#' className='px-4 flex gap-2 items-center  text-blue-600 font-bold mb-20  md:mb-0'>Meet our Supervisory Board members <span className=''><svg xmlns="http://www.w3.org/2000/svg" width={15} viewBox="0 0 24 24" fill="currentColor"><path d="M10 3V5H5V19H19V14H21V20C21 20.5523 20.5523 21 20 21H4C3.44772 21 3 20.5523 3 20V4C3 3.44772 3.44772 3 4 3H10ZM17.5858 5H13V3H21V11H19V6.41421L12 13.4142L10.5858 12L17.5858 5Z"></path></svg></span></Link>
                 </div>
             </div>
             {/* Person 3 end */}
