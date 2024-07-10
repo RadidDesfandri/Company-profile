@@ -16,6 +16,8 @@ const config: Config = {
       animation:{ infinite_scroll: "infinite_scroll 50s linear infinite"},
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
 };
 export default config;
