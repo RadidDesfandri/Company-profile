@@ -6,17 +6,16 @@ import Image from 'next/image'
 const itemNav = [
     { href: '/', text: 'Home' },
     { href: '/about', text: 'About Us' },
-    { href: '/services', text: 'Services' },
+    { href: '/services', text: 'Product' },
     { href: '/teams', text: 'Teams' },
 ]
 
 function Navbar() {
     return (
-        <section className='w-full z-50  mx-auto fixed bg-[#0C0C0C]'>
+        <section  className='w-full z-50  mx-auto fixed bg-[#0C0C0C] backdrop-blur-md bg-transparent'>
             <div className='flex justify-between items-center max-w-7xl bg-transparent mx-auto h-16 px-10'>
                 <div>
                     <Link href='/'>
-                        {/* <h1 className='font-extrabold text-white font-mono text-[20px] '>AI <span className='text-gray-600 tracking-[1px]'>pha</span></h1> */}
                         <Image src={logoComp} width={50} alt='alpha logo'/>
                     </Link>
                 </div>

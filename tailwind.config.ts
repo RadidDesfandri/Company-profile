@@ -8,12 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      keyframes:{
-        infinite_scroll: {
-          "100%": {transform: "translate(-50%)"},
+      animation: {
+        marquee: 'marquee 25s linear infinite',
+        marquee2: 'marquee2 25s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        marquee2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
         },
       },
-      animation:{ infinite_scroll: "infinite_scroll 50s linear infinite"},
     },
   },
   plugins: [
