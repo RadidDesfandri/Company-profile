@@ -13,17 +13,17 @@ function ByTheNumber() {
                 <div className='w-[370px] h-[250px] bg-slate-700 bg-opacity-25 rounded-md flex flex-col items-center p-6'>
                     <Image src={globe} alt='globe office' width={130} className='rounded-full' />
                     <p className='font-bold text-gray-200 pt-5'>12 Global Offices</p>
-                    <Link href={'#'} className='text-blue-700 hover:opacity-70 transition-all duration-100'>Learn more</Link>
+                    <Link href={'#'} className='text-white hover:opacity-70 transition-all duration-100'>Learn more</Link>
                 </div>
                 <div className='w-[370px] h-[250px] bg-slate-700 bg-opacity-25 rounded-md flex flex-col items-center p-6'>
                     <Image src={employe} alt='globe office' width={130} className='rounded-full' />
                     <p className='font-bold text-gray-200 pt-5'>7,600 Employees</p>
-                    <Link href={'#'} className='text-blue-700 hover:opacity-70 transition-all duration-100'>Learn more</Link>
+                    <Link href={'#'} className='text-white hover:opacity-70 transition-all duration-100'>Learn more</Link>
                 </div>
                 <div className='w-[370px] h-[250px] bg-slate-700 bg-opacity-25 rounded-md flex flex-col items-center p-6'>
                     <Image src={internet} alt='globe office' width={130} className='rounded-full' />
                     <p className='font-bold text-gray-200 pt-5'>216,000 Customers</p>
-                    <Link href={'#'} className='text-blue-700 hover:opacity-70 transition-all duration-100'>Learn more</Link>
+                    <Link href={'#'} className='text-white hover:opacity-70 transition-all duration-100'>Learn more</Link>
                 </div>
             </div>
         </section>
