@@ -5,11 +5,13 @@ import robotmini3 from '@/app/services/_assetsService/robotmini3.jpg'
 import robotmini4 from '@/app/services/_assetsService/robotmini4.jpg'
 import robotmini5 from '@/app/services/_assetsService/robotmini5.jpg'
 import robotmini6 from '@/app/services/_assetsService/robotmini6.jpg'
+import robotmini7 from '@/app/services/_assetsService/robotmini7.jpg'
+import robotmini8 from '@/app/services/_assetsService/robotmini8.jpg'
 import Image from 'next/image'
 
 function Product2() {
     return (
-        <section id='produk2' className='bg-[#0C0C0C] w-full pt-20'>
+        <section id='produk2' className='bg-[#0C0C0C] w-full py-20'>
             <div className='max-w-7xl mx-auto'>
                 <div className='flex flex-wrap lg:items-center'>
                     <div className='w-[390px] mx-auto lg:w-[630px]'>
@@ -82,9 +84,21 @@ function Product2() {
                                 alt=''
                                 className="w-full object-cover" />
                         </div>
+                        <div className="carousel-item w-full">
+                            <Image
+                                src={robotmini7}
+                                alt=''
+                                className="w-full object-cover object-top" />
+                        </div>
+                        <div className="carousel-item w-full">
+                            <Image
+                                src={robotmini8}
+                                alt=''
+                                className="w-full object-cover" />
+                        </div>
                     </div>
                 </div>
-                <div className='lg:hidden flex gap-3 py-10 px-20'>
+                <div className='lg:hidden flex gap-3 py-10 px-10'>
                     <button className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200'>Pre Order</button>
                     <button className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full'>$214.000</button>
                 </div>
