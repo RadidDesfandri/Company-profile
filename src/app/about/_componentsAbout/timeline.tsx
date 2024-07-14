@@ -2,9 +2,9 @@ import React from 'react'
 
 function TimeLine() {
     return (
-        <section className='w-full '>
+        <section className='w-full lg:bg-[#0C0C0C]'>
             <div className='max-w-7xl mx-auto '>
-                <ul className="timeline timeline-snap-icon  max-md:timeline-compact timeline-vertical -z-30 bg-[#0C0C0C]">
+                <ul className="timeline timeline-snap-icon  max-md:timeline-compact timeline-vertical -z-30 lg:-z-0 bg-[#0C0C0C]">
                     <li>
                         <div className="timeline-middle text-white">
                             <svg

@@ -5,8 +5,8 @@ import logo from '@/app/components/images/ai.png'
 
 function Hero() {
     return (
-        <section className='w-full mx-auto '>
-            <div className='mx-auto max-w-screen-2xl pt-16 relative bg-[#0C0C0C] -z-20'>
+        <section className='w-full mx-auto lg:bg-[#0C0C0C]'>
+            <div className='mx-auto max-w-screen-2xl pt-16 relative bg-[#0C0C0C] lg:-z-0 -z-20'>
                 <div className='absolute w-44 h-44 lg:w-60 lg:h-60 bg-blue-600 rounded-full blur-[70px] opacity-70 lg:left-64 lg:top-16 lg:opacity-60 animate-pulse'></div>
                 <div className='flex flex-col items-center lg:items-start'>
                     <Image

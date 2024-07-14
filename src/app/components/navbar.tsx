@@ -18,8 +18,8 @@ function Navbar() {
     ]
 
     return (
-        <section className='w-full lg:z-50  fixed'>
-            <div className='flex justify-between  items-center max-w-7xl  bg-[#0C0C0C] backdrop-blur-md bg-transparent mx-auto h-16 px-10'>
+        <section className='w-full z-50  fixed'>
+            <div className='flex justify-between  items-center max-w-7xl  bg-[#0C0C0C]/65 backdrop-blur-md mx-auto h-16 px-10'>
                 <div>
                     <Link href='/'>
                         <Image src={logoComp} width={50} alt='alpha logo' />
@@ -46,7 +46,7 @@ function Navbar() {
             </div>
 
             {/* Humburger */}
-            <div className={clsx('fixed h-full w-screen lg:hidden bg-black/50 backdrop-blur-sm top-0 bottom-0 translate-x-full', menu && "-translate-x-0 transition-all duration-300"
+            <div className={clsx('fixed h-full w-screen lg:hidden bg-black/50 backdrop-blur-sm top-0 bottom-0 -translate-x-full', menu && "translate-x-0 transition-all duration-300"
             )}>
                 <section className='text-white bg-[#0C0C0C] flex flex-col absolute right-0 top-0 h-screen p-8 gap-8 z-50 w-48'>
                     <button
