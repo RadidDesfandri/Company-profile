@@ -6,7 +6,7 @@ import Product4 from './_componentsService/product4'
 
 function Services() {
   return (
-    <section>
+    <section >
         <Product1/>
         <Product2/>
         <Product3/>

@@ -14,7 +14,7 @@ function Product3() {
         <div className='flex flex-wrap lg:items-center'>
           <div className='w-[390px] mx-auto lg:w-[630px]'>
             <h1 className='text-white font-semibold text-center text-2xl pb-4 lg:text-5xl lg:text-left'>Robotic Hand: Advanced Technology Solutions for Modern Life</h1>
-            <p className='text-sm text-center pb-6 lg:pb-14 lg:text-base lg:text-left'>Robotic Hand is a revolutionary device that combines advanced technology with ergonomic design to create an artificial hand capable of performing various tasks with high precision. Designed to assist humans in various activities, Robotic Hand offers various superior features that make it a very useful tool in various fields.</p>
+            <p className='text-sm text-center text-slate-200 pb-6 lg:pb-14 lg:text-base lg:text-left'>Robotic Hand is a revolutionary device that combines advanced technology with ergonomic design to create an artificial hand capable of performing various tasks with high precision. Designed to assist humans in various activities, Robotic Hand offers various superior features that make it a very useful tool in various fields.</p>
             <div className='lg:flex hidden gap-3'>
               <button className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200'>Pre Order</button>
               <button className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full'>$99.999</button>
@@ -61,7 +61,7 @@ function Product3() {
         <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-around px-8 '>
           <div>
             <h1 className='text-white font-bold text-4xl text-center lg:text-left lg:text-5xl'>RoboticHand Pictures</h1>
-            <p className='text-center pb-5 lg:pb-0 lg:text-left lg:text-lg'>Some pictures of the RoboticHand Robot</p>
+            <p className='text-center text-slate-200 pb-5 lg:pb-0 lg:text-left lg:text-lg'>Some pictures of the RoboticHand Robot</p>
           </div>
           <div className="carousel rounded-box w-[350px] h-[188px] lg:w-[550px] lg:h-72">
             <div className="carousel-item w-full">

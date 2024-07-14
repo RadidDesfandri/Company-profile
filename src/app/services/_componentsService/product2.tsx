@@ -16,7 +16,7 @@ function Product2() {
                 <div className='flex flex-wrap lg:items-center'>
                     <div className='w-[390px] mx-auto lg:w-[630px]'>
                         <h1 className='text-white font-semibold text-center text-2xl pb-4 lg:text-5xl lg:text-left'>NanoMind: Mini AI Robot with Maximum Capabilities</h1>
-                        <p className='text-sm text-center pb-6 lg:pb-14 lg:text-base lg:text-left'>NanoMind is an AI robot that is small in size but has extraordinary abilities. Despite being compact, NanoMind is equipped with advanced features that make it capable of handling various tasks with high efficiency.</p>
+                        <p className='text-sm text-center text-slate-200 pb-6 lg:pb-14 lg:text-base lg:text-left'>NanoMind is an AI robot that is small in size but has extraordinary abilities. Despite being compact, NanoMind is equipped with advanced features that make it capable of handling various tasks with high efficiency.</p>
                         <div className='lg:flex hidden gap-3'>
                             <button className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200'>Pre Order</button>
                             <button className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full'>$214.000</button>
@@ -51,11 +51,11 @@ function Product2() {
                     <div className='flex gap-6 pb-10 lg:py-0  '>
                         <div className='lg:relative'>
                             <Image src={robotmini2} alt='nanorobot' width={500} className='w-[170px] object-cover object-center h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
-                            <p className='hidden lg:flex border backdrop-blur-lg py-1 px-2 rounded-md absolute top-3 left-3 font-semibold'>Foot View</p>
+                            <p className='hidden lg:flex border backdrop-blur-lg py-1 px-2 rounded-md text-slate-200 absolute top-3 left-3 font-semibold'>Foot View</p>
                         </div>
                         <div className='lg:relative'>
                             <Image src={robotmini3} alt='' width={500} className='w-[170px] object-cover object-top h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
-                            <p className='hidden lg:flex border backdrop-blur-lg py-1 px-2 rounded-md absolute bottom-3 right-3 font-semibold'>Hand View</p>
+                            <p className='hidden lg:flex border backdrop-blur-lg py-1 px-2 rounded-md text-slate-200 absolute bottom-3 right-3 font-semibold'>Hand View</p>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ function Product2() {
                 <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-around '>
                     <div>
                         <h1 className='text-white font-bold text-4xl text-center lg:text-left lg:text-5xl'>NanoMind Pictures</h1>
-                        <p className='text-center pb-5 lg:pb-0 lg:text-left lg:text-lg'>Some pictures of the NanoMind Robot</p>
+                        <p className='text-center text-slate-200 pb-5 lg:pb-0 lg:text-left lg:text-lg'>Some pictures of the NanoMind Robot</p>
                     </div>
                     <div className="carousel rounded-box w-[350px] h-[188px] lg:w-[550px] lg:h-72">
                         <div className="carousel-item w-full">

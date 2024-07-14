@@ -13,7 +13,7 @@ function Product4() {
                 <div className='flex flex-wrap lg:items-center'>
                     <div className='w-[390px] mx-auto lg:w-[630px]'>
                         <h1 className='text-white font-semibold text-center text-2xl pb-4 lg:text-5xl lg:text-left'>Electric Cars: Environmentally Friendly Vehicles for the Future</h1>
-                        <p className='text-sm text-center pb-6 lg:pb-14 lg:text-base lg:text-left'>Electric cars are innovative vehicles that use electrical energy as the main power source, replacing traditional fossil fuels such as gasoline or diesel. Designed to provide high performance while reducing environmental impact, electric cars offer a variety of benefits in terms of energy efficiency, lower emissions and advanced technology.</p>
+                        <p className='text-sm text-slate-200 text-center pb-6 lg:pb-14 lg:text-base lg:text-left'>Electric cars are innovative vehicles that use electrical energy as the main power source, replacing traditional fossil fuels such as gasoline or diesel. Designed to provide high performance while reducing environmental impact, electric cars offer a variety of benefits in terms of energy efficiency, lower emissions and advanced technology.</p>
                         <div className='lg:flex hidden gap-3'>
                             <button className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200'>Pre Order</button>
                             <button className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full'>$385.998</button>
@@ -60,7 +60,7 @@ function Product4() {
                 <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-around px-8 '>
                     <div>
                         <h1 className='text-white font-bold text-4xl text-center lg:text-left lg:text-5xl'>Electric Cars Pictures</h1>
-                        <p className='text-center pb-5 lg:pb-0 lg:text-left lg:text-lg'>Some pictures of the Electric Cars</p>
+                        <p className='text-center text-slate-200 pb-5 lg:pb-0 lg:text-left lg:text-lg'>Some pictures of the Electric Cars</p>
                     </div>
                     <div className="carousel rounded-box w-[350px] h-[188px] lg:w-[550px] lg:h-72">
                         <div className="carousel-item w-full">

@@ -4,9 +4,9 @@ function TimeLine() {
     return (
         <section className='w-full '>
             <div className='max-w-7xl mx-auto '>
-                <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical -z-30 bg-[#0C0C0C]">
+                <ul className="timeline timeline-snap-icon  max-md:timeline-compact timeline-vertical -z-30 bg-[#0C0C0C]">
                     <li>
-                        <div className="timeline-middle">
+                        <div className="timeline-middle text-white">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
@@ -19,9 +19,9 @@ function TimeLine() {
                             </svg>
                         </div>
                         <div className="timeline-start mb-10 md:text-end">
-                            <time className="font-mono italic">1984</time>
-                            <div className="text-lg font-black">Company Establishment</div>
-                            <p className='lg:w-[500px] w-[350px]'>
+                            <time className="font-mono italic text-white">1984</time>
+                            <div className="text-lg text-white font-bold">Company Establishment</div>
+                            <p className='lg:w-[500px] w-[350px] text-slate-100'>
                                 The company was founded by a group of robotics engineers and AI experts with a vision to revolutionize the robotics industry.
                                 Initial team formation, including hardware engineers, software, and AI experts.
                                 Intensive research and development (R&D) for the first robotic prototype.
@@ -32,7 +32,7 @@ function TimeLine() {
                     </li>
                     <li>
                         <hr />
-                        <div className="timeline-middle">
+                        <div className="timeline-middle text-white">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
@@ -45,9 +45,9 @@ function TimeLine() {
                             </svg>
                         </div>
                         <div className="timeline-end mb-10">
-                            <time className="font-mono italic">1998</time>
-                            <div className="text-lg font-black">AI Technology Development</div>
-                            <p className='lg:w-[500px] w-[350px]'>
+                            <time className="font-mono italic text-white">1998</time>
+                            <div className="text-lg text-white font-bold">AI Technology Development</div>
+                            <p className='lg:w-[500px] w-[350px] text-slate-100'>
                                 Huge investment in AI R&D to improve robot capabilities. Launch of new robots with enhanced AI capabilities, including voice recognition and natural language processing. Recognition as one of the leading companies in the integration of AI and robotics.
                             </p>
                         </div>
@@ -55,7 +55,7 @@ function TimeLine() {
                     </li>
                     <li>
                         <hr />
-                        <div className="timeline-middle">
+                        <div className="timeline-middle text-white">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
@@ -68,9 +68,9 @@ function TimeLine() {
                             </svg>
                         </div>
                         <div className="timeline-start mb-10 md:text-end">
-                            <time className="font-mono italic">2004</time>
-                            <div className="text-lg font-black">Product Line Diversification</div>
-                            <p className='lg:w-[500px] w-[350px]'>
+                            <time className="font-mono italic text-white">2004</time>
+                            <div className="text-lg text-white font-bold">Product Line Diversification</div>
+                            <p className='lg:w-[500px] w-[350px] text-slate-100'>
                                 Launch of educational robots for schools and universities. Enter the agricultural robotics market with the launch of robot harvesters. Integration of IoT technology to improve robot connectivity and efficiency. Launch of cloud-based robot management platform.
                             </p>
                         </div>
@@ -78,7 +78,7 @@ function TimeLine() {
                     </li>
                     <li>
                         <hr />
-                        <div className="timeline-middle">
+                        <div className="timeline-middle text-white">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
@@ -91,9 +91,9 @@ function TimeLine() {
                             </svg>
                         </div>
                         <div className="timeline-end mb-10">
-                            <time className="font-mono italic">2010</time>
-                            <div className="text-lg font-black">Launch of Global R&D Center</div>
-                            <p className='lg:w-[500px] w-[350px]'>
+                            <time className="font-mono italic text-white">2010</time>
+                            <div className="text-lg text-white font-bold">Launch of Global R&D Center</div>
+                            <p className='lg:w-[500px] w-[350px] text-slate-100'>
                                 Opening of new R&D centers in Silicon Valley and Europe. Collaboration with leading universities for joint research. Increase investment in innovative and futuristic projects.
                             </p>
                         </div>
@@ -101,7 +101,7 @@ function TimeLine() {
                     </li>
                     <li>
                         <hr />
-                        <div className="timeline-middle">
+                        <div className="timeline-middle text-white">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 20 20"
@@ -114,9 +114,9 @@ function TimeLine() {
                             </svg>
                         </div>
                         <div className="timeline-start mb-10 md:text-end">
-                            <time className="font-mono italic">2017</time>
-                            <div className="text-lg font-black">Sustainable Innovation and Focus on Sustainability</div>
-                            <p className='lg:w-[500px] w-[350px]'>
+                            <time className="font-mono italic text-white">2017</time>
+                            <div className="text-lg text-white font-bold">Sustainable Innovation and Focus on Sustainability</div>
+                            <p className='lg:w-[500px] w-[350px] text-slate-100'>
                                 Development of environmentally friendly robots with a focus on sustainability. Launch of corporate green initiatives to reduce carbon footprint. Recognition as a leading robotics company with a commitment to sustainability and innovation.
                             </p>
                         </div>

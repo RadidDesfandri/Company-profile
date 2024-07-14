@@ -5,8 +5,8 @@ import Link from 'next/link'
 
 function Product1() {
     return (
-        <section className='w-full pt-14'>
-            <div className='max-w-screen-2xl mx-auto bg-[#0C0C0C] relative -z-10'>
+        <section className='w-full'>
+            <div className='max-w-screen-2xl h-screen mx-auto bg-[#0C0C0C] relative -z-10'>
                 <div>
                     <Image src={product} alt='bg-produk' width={1000} className='w-screen  object-cover h-[590px] opacity-40  ' />
                 </div>
