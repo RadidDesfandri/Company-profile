@@ -12,8 +12,8 @@ function Hero() {
                     <Image
                         src={hero}
                         alt='hero'
-                        width={6000}
-                        height={4000}
+                        width={1000}
+                        height={450}
                         className='bg-black opacity-40 w-screen object-cover h-[450px]'
                     />
                     <div className='flex flex-wrap justify-center mx-80'>
