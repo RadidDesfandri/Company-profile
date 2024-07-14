@@ -14,10 +14,8 @@ function Teams() {
                 setTeams(json.results)
             } catch (err) {
                 console.log(err);
-
             }
         }
-
         team()
     }, [])
 

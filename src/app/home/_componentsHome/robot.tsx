@@ -18,15 +18,15 @@ function Robot() {
                     </div>
                     <div>
                         <Image
-                        src={robot1}
-                        width={450}
-                        alt='robot1'
-                        className='mb-8'
+                            src={robot1}
+                            width={450}
+                            alt='robot1'
+                            className='mb-8'
                         />
                         <Image
-                        src={robot2}
-                        width={450}
-                        alt='robot2'
+                            src={robot2}
+                            width={450}
+                            alt='robot2'
                         />
                     </div>
                 </div>
