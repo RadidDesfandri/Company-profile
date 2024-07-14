@@ -16,12 +16,12 @@ function Product3() {
             <h1 className='text-white font-semibold text-center text-2xl pb-4 lg:text-5xl lg:text-left'>Robotic Hand: Advanced Technology Solutions for Modern Life</h1>
             <p className='text-sm text-center text-slate-200 pb-6 lg:pb-14 lg:text-base lg:text-left'>Robotic Hand is a revolutionary device that combines advanced technology with ergonomic design to create an artificial hand capable of performing various tasks with high precision. Designed to assist humans in various activities, Robotic Hand offers various superior features that make it a very useful tool in various fields.</p>
             <div className='lg:flex hidden gap-3'>
-              <button className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200'>Pre Order</button>
-              <button className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full'>$99.999</button>
+              <button type='button' className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200'>Pre Order</button>
+              <button type='button' className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full'>$99.999</button>
             </div>
           </div>
           <div className='mx-auto pb-[28px]'>
-            <Image src={handrobot1} alt='hand robot 1' width={900} className='object-cover object-bottom w-[300px] lg:w-[350px] h-[470px] rounded-2xl' />
+            <Image src={handrobot1} alt='hand robot' width={3010} height={4515} className='object-cover object-bottom w-[360px] lg:w-[350px] h-[470px] rounded-2xl' />
           </div>
         </div>
 
@@ -48,11 +48,11 @@ function Product3() {
 
           <div className='flex gap-6 pb-10 lg:py-0  '>
             <div className='lg:relative'>
-              <Image src={handrobot3} alt='hand robot 3' width={500} className='w-[170px] object-cover object-center h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
+              <Image src={handrobot3} alt='hand robot' width={6384} height={4189} className='w-[170px] object-cover object-center h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
               <p className='hidden lg:flex text-white  border backdrop-blur-lg py-1 px-2 rounded-md absolute bottom-3 left-3 font-semibold'>All View</p>
             </div>
             <div className='lg:relative'>
-              <Image src={handrobot4} alt='hand robot 4' width={500} className='w-[170px] object-cover object-top h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
+              <Image src={handrobot4} alt='hand robot' width={6440} height={4293} className='w-[170px] object-cover object-top h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
               <p className='hidden lg:flex text-white border backdrop-blur-lg py-1 px-2 rounded-md absolute top-3 right-3 font-semibold'>Hand View</p>
             </div>
           </div>
@@ -67,19 +67,19 @@ function Product3() {
             <div className="carousel-item w-full">
               <Image
                 src={handrobot2}
-                alt='handrobot2'
+                alt='handrobot'
                 className="w-full object-cover " />
             </div>
             <div className="carousel-item w-full">
               <Image
                 src={handrobot5}
-                alt='handrobot5'
+                alt='handrobot'
                 className="w-full object-cover " />
             </div>
             <div className="carousel-item w-full">
               <Image
                 src={handrobot6}
-                alt='handrobot6'
+                alt='handrobot'
                 className="w-full object-cover " />
             </div>
           </div>

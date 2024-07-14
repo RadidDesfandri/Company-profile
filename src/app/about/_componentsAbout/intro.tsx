@@ -12,8 +12,9 @@ function Intro() {
                     <Image 
                     src={tecnologi} 
                     alt='tecnology'
-                    width={600} 
-                    className='w-[415px] lg:w-[450px] h-[400px] object-cover' />
+                    width={1400} 
+                    height={937}
+                    className='w-[400px] h-[385px] lg:w-[450px] object-cover' />
                     <div className='text-gray-200 p-4 w-[400px] lg:w-[450px] mx-auto '>
                         <p className='pb-5 font-semibold'>Driven by purpose</p>
                         <p className='pb-5 text-sm w-[300px]'>

@@ -20,7 +20,7 @@ function Product4() {
                         </div>
                     </div>
                     <div className='mx-auto pb-[28px]'>
-                        <Image src={car3} alt='hand robot 1' width={900} className='object-cover object-bottom w-[300px] lg:w-[350px] h-[470px] rounded-2xl' />
+                        <Image src={car3} alt='hand robot 1' width={900} className='object-cover object-bottom w-[360px] lg:w-[350px] h-[470px] rounded-2xl' />
                     </div>
                 </div>
 

@@ -12,13 +12,15 @@ function Hero() {
                     <Image
                         src={hero}
                         alt='hero'
-                        width={1000}
+                        width={6000}
+                        height={4000}
                         className='bg-black opacity-40 w-screen object-cover h-[450px]'
                     />
                     <div className='flex flex-wrap justify-center mx-80'>
                         <Image
                             src={logo}
-                            width={500}
+                            width={1056}
+                            height={1536}
                             alt='ai robot'
                             className='w-[260px] absolute top-[136px] lg:w-[300px] lg:top-[77.5px]'
                         />

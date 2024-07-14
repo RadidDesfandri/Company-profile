@@ -12,12 +12,13 @@ function Ceo() {
             <h1 className='text-center text-white text-3xl font-bold md:text-5xl'>A diverse and inclusive workplace</h1>
             <p className='text-center  text-gray-200 text-sm w-screen md:text-base md:w-[500px]  mx-auto mb-10'>The continued success of our company depends on every employee feeling valued, respected, and empowered to contribute fully.</p>
 
-            <div className='flex flex-wrap lg:max-w-[1100px]  gap-4 mb-28 xl:gap-20 rounded-md md:rounded-none bg-slate-900 mx-auto'>
+            <div className='flex flex-wrap lg:w-[1100px]  w-[380px] gap-4 mb-28 xl:gap-20 rounded-md md:rounded-none bg-slate-900 mx-auto'>
                 <div>
                     <Image
                         src={person1}
                         alt='presentasion'
-                        width={900}
+                        width={7683}
+                        height={5125}
                         className='mb-10 md:mb-0 w-screen lg:w-[550px] md:h-[600px] object-cover'
                     />
                 </div>
@@ -30,12 +31,13 @@ function Ceo() {
                 </div>
             </div>
             {/* Person 2 start */}
-            <div className='flex flex-wrap lg:max-w-[1100px]  gap-4 mb-28 xl:gap-20 rounded-md md:rounded-none bg-slate-900 mx-auto lg:relative'>
+            <div className='flex flex-wrap lg:w-[1100px] w-[380px] gap-4 mb-28 xl:gap-20 rounded-md md:rounded-none bg-slate-900 mx-auto lg:relative'>
                 <div className='flex lg:justify-end lg:w-[1100px]'>
                     <Image
                         src={person2}
                         alt='presentasion'
-                        width={900}
+                        width={4480}
+                        height={5490}
                         className='mb-10 md:mb-0 w-screen lg:w-[550px] md:h-[600px] object-cover'
                     />
                 </div>
@@ -51,12 +53,13 @@ function Ceo() {
             {/* Person 2 end */}
 
             {/* Person 3 start */}
-            <div className='flex flex-wrap lg:max-w-[1100px]  gap-4 xl:gap-20 rounded-md md:rounded-none bg-slate-900 mx-auto'>
+            <div className='flex flex-wrap lg:w-[1100px] w-[380px] gap-4 xl:gap-20 rounded-md md:rounded-none bg-slate-900 mx-auto'>
                 <div>
                     <Image
                         src={person3}
                         alt='presentasion'
-                        width={900}
+                        width={4000}
+                        height={4538}
                         className='mb-10 md:mb-0 w-screen lg:w-[550px] md:h-[600px] object-cover'
                     />
                 </div>
