@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import robot1 from '@/app/components/images/robot1.jpeg'
-import robot2 from '@/app/components/images/robot2.jpeg'
+import robot1 from '@/app/components/images/robot1.jpg'
+import robot2 from '@/app/components/images/robot2.jpg'
 
 
 function Robot() {
@@ -19,15 +19,11 @@ function Robot() {
                     <div>
                         <Image
                             src={robot1}
-                            width={1200}
-                            height={600}
                             alt='robot1'
                             className='mb-8 w-[450px]'
                         />
                         <Image
                             src={robot2}
-                            width={640}
-                            height={413}
                             alt='robot2'
                             className='w-[450px]'
                         />

@@ -9,9 +9,7 @@ function Story() {
 
                 <div className='flex flex-wrap items-center gap-6 bg-slate-900'>
                     <Image 
-                    src={meeting} 
-                    width={6000} 
-                    height={4004}
+                    src={meeting}
                     alt='meeting' 
                     className='w-[400px] h-[385px] lg:w-[450px] object-cover' />
 

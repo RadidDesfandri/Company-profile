@@ -8,7 +8,7 @@ function Product1() {
         <section className='w-full  lg:bg-[#0C0C0C] lg:pt-16 '>
             <div className='max-w-screen-2xl mx-auto bg-[#0C0C0C] lg:-z-0 -z-10'>
                 <div>
-                    <Image src={product} alt='bg-produk' width={6000} height={4000} className='w-screen  object-cover h-[590px] opacity-40  ' />
+                    <Image src={product} alt='bg-produk' className='w-screen  object-cover h-[590px] opacity-40  ' />
                 </div>
                 <div className='absolute top-44 px-6 lg:top-40 lg:px-14'>
                     <h2 className='text-2xl lg:text-4xl lg:text-left text-gray-200 font-semibold text-center drop-shadow-[1px_1px_1px_blue]'>Voltrive one</h2>

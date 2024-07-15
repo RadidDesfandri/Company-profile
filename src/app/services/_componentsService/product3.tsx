@@ -21,7 +21,7 @@ function Product3() {
             </div>
           </div>
           <div className='mx-auto pb-[28px]'>
-            <Image src={handrobot1} alt='hand robot' width={3010} height={4515} className='object-cover object-bottom w-[360px] lg:w-[350px] h-[470px] rounded-2xl' />
+            <Image src={handrobot1} alt='hand robot' className='object-cover object-bottom w-[360px] lg:w-[350px] h-[470px] rounded-2xl' />
           </div>
         </div>
 
@@ -48,11 +48,11 @@ function Product3() {
 
           <div className='flex gap-6 pb-10 lg:py-0  '>
             <div className='lg:relative'>
-              <Image src={handrobot3} alt='hand robot' width={6384} height={4189} className='w-[170px] object-cover object-center h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
+              <Image src={handrobot3} alt='hand robot' className='w-[170px] object-cover object-center h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
               <p className='hidden lg:flex text-white  border backdrop-blur-lg py-1 px-2 rounded-md absolute bottom-3 left-3 font-semibold'>All View</p>
             </div>
             <div className='lg:relative'>
-              <Image src={handrobot4} alt='hand robot' width={6440} height={4293} className='w-[170px] object-cover object-top h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
+              <Image src={handrobot4} alt='hand robot' className='w-[170px] object-cover object-top h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
               <p className='hidden lg:flex text-white border backdrop-blur-lg py-1 px-2 rounded-md absolute top-3 right-3 font-semibold'>Hand View</p>
             </div>
           </div>

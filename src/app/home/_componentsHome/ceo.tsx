@@ -17,8 +17,6 @@ function Ceo() {
                     <Image
                         src={person1}
                         alt='presentasion'
-                        width={7683}
-                        height={5125}
                         className='mb-10 md:mb-0 w-screen lg:w-[550px] md:h-[600px] object-cover'
                     />
                 </div>
@@ -36,8 +34,6 @@ function Ceo() {
                     <Image
                         src={person2}
                         alt='presentasion'
-                        width={4480}
-                        height={5490}
                         className='mb-10 md:mb-0 w-screen lg:w-[550px] md:h-[600px] object-cover'
                     />
                 </div>
