@@ -1,32 +1,38 @@
-import React from 'react'
-import robotmini1 from '@/app/services/_assetsService/robotmini1.jpg'
-import robotmini2 from '@/app/services/_assetsService/robotmini2.jpg'
-import robotmini3 from '@/app/services/_assetsService/robotmini3.jpg'
-import robotmini4 from '@/app/services/_assetsService/robotmini4.jpg'
-import robotmini5 from '@/app/services/_assetsService/robotmini5.jpg'
-import robotmini6 from '@/app/services/_assetsService/robotmini6.jpg'
-import robotmini7 from '@/app/services/_assetsService/robotmini7.jpg'
-import robotmini8 from '@/app/services/_assetsService/robotmini8.jpg'
 import Image from 'next/image'
+import { title } from 'process';
+import React from 'react'
 
-function Product2() {
+interface IProps {
+    tittle: string;
+    name: string;
+    price: string;
+    deskripsi: string;
+    img1: string;
+    img2: string;
+    img3: string;
+    imgcorou1: string;
+    imgcorou2: string;
+    imgcorou3: string;
+}
+
+export default function FetchContenful({ tittle, name, price, deskripsi, img1, img2, img3, imgcorou1, imgcorou2, imgcorou3 }: IProps) {
+
     return (
         <section id='produk2' className='bg-[#0C0C0C] w-full py-20'>
             <div className='max-w-7xl mx-auto'>
                 <div className='flex flex-wrap lg:items-center'>
                     <div className='w-[390px] mx-auto lg:w-[630px]'>
-                        <h1 className='text-white font-semibold text-center text-2xl pb-4 lg:text-5xl lg:text-left'>NanoMind: Mini AI Robot with Maximum Capabilities</h1>
-                        <p className='text-sm text-center text-slate-200 pb-6 lg:pb-14 lg:text-base lg:text-left'>NanoMind is an AI robot that is small in size but has extraordinary abilities. Despite being compact, NanoMind is equipped with advanced features that make it capable of handling various tasks with high efficiency.</p>
+                        <h1 className='text-white font-semibold text-center text-2xl pb-4 lg:text-5xl lg:text-left'>{tittle}</h1>
+                        <p className='text-sm text-center text-slate-200 pb-6 lg:pb-14 lg:text-base lg:text-left'>{deskripsi}</p>
                         <div className='lg:flex hidden gap-3'>
                             <button type='button' className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200'>Pre Order</button>
-                            <button type='button' className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full'>$214.000</button>
+                            <button type='button' className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full'>{price}</button>
                         </div>
                     </div>
                     <div className='mx-auto pb-[28px]'>
-                        <Image src={robotmini1} alt='gambar 1 robot mini' className='object-cover object-bottom w-[360px] lg:w-[350px] h-[470px] rounded-2xl' />
+                        <Image src={img1} width={500} height={500} alt='gambar 1 robot mini' className='object-cover object-bottom w-[360px] lg:w-[350px] h-[470px] rounded-2xl' />
                     </div>
                 </div>
-
 
                 {/* Kualiatas robot start */}
                 <div className='flex flex-wrap justify-center items-center lg:justify-around pb-16 lg:px-8'>
@@ -50,49 +56,44 @@ function Product2() {
 
                     <div className='flex gap-6 pb-10 lg:py-0  '>
                         <div className='lg:relative'>
-                            <Image src={robotmini2} alt='nanorobot' className='w-[170px] object-cover object-center h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
-                            <p className='hidden lg:flex border backdrop-blur-lg py-1 px-2 rounded-md text-slate-200 absolute top-3 left-3 font-semibold'>Foot View</p>
+                            <Image src={img2} width={500} height={500} alt='nanorobot' className='w-[170px] object-cover object-center h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
+                            <p className='hidden lg:flex border backdrop-blur-lg py-1 px-2 rounded-md text-slate-200 absolute top-3 left-3 font-semibold'>View 1</p>
                         </div>
                         <div className='lg:relative'>
-                            <Image src={robotmini3} alt='nano robot' className='w-[170px] object-cover object-top h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
-                            <p className='hidden lg:flex border backdrop-blur-lg py-1 px-2 rounded-md text-slate-200 absolute bottom-3 right-3 font-semibold'>Hand View</p>
+                            <Image src={img3} width={500} height={500} alt='nano robot' className='w-[170px] object-cover object-top h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
+                            <p className='hidden lg:flex border backdrop-blur-lg py-1 px-2 rounded-md text-slate-200 absolute bottom-3 right-3 font-semibold'>View 2</p>
                         </div>
                     </div>
                 </div>
                 {/* Kualitas robot end */}
+
                 <div className='flex flex-col lg:flex-row items-center justify-center lg:justify-around '>
                     <div>
-                        <h1 className='text-white font-bold text-4xl text-center lg:text-left lg:text-5xl'>NanoMind Pictures</h1>
-                        <p className='text-center text-slate-200 pb-5 lg:pb-0 lg:text-left lg:text-lg'>Some pictures of the NanoMind Robot</p>
+                        <h1 className='text-white font-bold text-4xl text-center lg:text-left lg:text-5xl'>{name} Pictures</h1>
+                        <p className='text-center text-slate-200 pb-5 lg:pb-0 lg:text-left lg:text-lg'>Some pictures of the {name} Robot</p>
                     </div>
                     <div className="carousel rounded-box w-[350px] h-[188px] lg:w-[550px] lg:h-72">
                         <div className="carousel-item w-full">
                             <Image
-                                src={robotmini6}
+                                src={imgcorou1}
+                                width={500}
+                                height={500}
                                 alt='nano robot'
                                 className="w-full object-cover object-top" />
                         </div>
                         <div className="carousel-item w-full">
                             <Image
-                                src={robotmini4}
-                                alt='nano robot'
-                                className="w-full object-cover object-top" />
-                        </div>
-                        <div className="carousel-item w-full">
-                            <Image
-                                src={robotmini5}
+                                src={imgcorou2}
+                                width={500}
+                                height={500}
                                 alt='nano robot'
                                 className="w-full object-cover" />
                         </div>
                         <div className="carousel-item w-full">
                             <Image
-                                src={robotmini7}
-                                alt='nano robot'
-                                className="w-full object-cover object-top" />
-                        </div>
-                        <div className="carousel-item w-full">
-                            <Image
-                                src={robotmini8}
+                                src={imgcorou3}
+                                width={500}
+                                height={500}
                                 alt='nano robot'
                                 className="w-full object-cover" />
                         </div>
@@ -100,11 +101,9 @@ function Product2() {
                 </div>
                 <div className='lg:hidden flex gap-3 py-10 px-10'>
                     <button className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full hover:shadow-[0_1px_10px_blue] hover:opacity-80 transition-all duration-200'>Pre Order</button>
-                    <button className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full'>$214.000</button>
+                    <button className=' text-white font-bold border border-blue-600 px-3 py-2 text-[12px]  lg:text-sm  rounded-full'>{price}</button>
                 </div>
             </div>
         </section>
     )
 }
-
-export default Product2

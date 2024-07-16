@@ -6,8 +6,8 @@ export default async function FetchingServer() {
     const user = await fetch("https://randomuser.me/api/?results=10", {
         method: "GET"
     })
-
     const data = await user.json()
+    
     return (
         <section className='w-full bg-[#0C0C0C] py-28'>
             <div className='max-w-7xl mx-auto lg:px-10'>
