@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import tecnologi from '@/app/components/images/room.jpeg'
+import tecnologi from '@/app/components/images/room.jpg'
 
 function Intro() {
     return (
