@@ -53,8 +53,7 @@ export default function FetchContenful({ tittle, name, price, deskripsi, img1, i
                             <p className='text-lg lg:text-xl'>Diff sound</p>
                         </div>
                     </div>
-
-                    <div className='flex gap-6 pb-10 lg:py-0  '>
+                    <div className='flex gap-6 pb-10 lg:py-0'>
                         <div className='lg:relative'>
                             <Image src={img2} width={500} height={500} alt='nanorobot' className='w-[170px] object-cover object-center h-[160px] rounded-xl lg:w-[270px] lg:h-[180px] ' />
                             <p className='hidden lg:flex border backdrop-blur-lg py-1 px-2 rounded-md text-slate-200 absolute top-3 left-3 font-semibold'>View 1</p>
