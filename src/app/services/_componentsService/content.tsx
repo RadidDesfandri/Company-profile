@@ -7,7 +7,7 @@ export default async function Content() {
     method: 'GET'
   })
   const data = await get.json()
-  
+
   return (
     <div>
       <FetchContenful
