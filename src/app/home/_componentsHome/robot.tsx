@@ -20,11 +20,13 @@ function Robot() {
                     <div>
                         <Image
                             src={robot1}
+                            priority={true}
                             alt='robot1'
                             className='mb-8 w-[450px]'
                         />
                         <Image
                             src={robot2}
+                            priority={true}
                             alt='robot2'
                             className='w-[450px]'
                         />

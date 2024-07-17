@@ -16,6 +16,7 @@ function Ceo() {
                 <div>
                     <Image
                         src={person1}
+                        priority={true}
                         alt='presentasion'
                         className='mb-10 md:mb-0 w-screen lg:w-[550px] md:h-[600px] object-cover'
                     />
@@ -33,6 +34,7 @@ function Ceo() {
                 <div className='flex lg:justify-end lg:w-[1100px]'>
                     <Image
                         src={person2}
+                        priority={true}
                         alt='presentasion'
                         className='mb-10 md:mb-0 w-screen lg:w-[550px] md:h-[600px] object-cover'
                     />
@@ -53,6 +55,7 @@ function Ceo() {
                 <div>
                     <Image
                         src={person3}
+                        priority={true}
                         alt='presentasion'
                         width={4000}
                         height={4538}

@@ -12,12 +12,14 @@ function Hero() {
                     <Image
                         src={hero}
                         alt='hero'
+                        priority={true}
                         className='bg-black opacity-40 w-screen object-cover h-[450px]'
                     />
                     <div className='flex flex-wrap justify-center mx-80'>
                         <Image
                             src={logo}
                             alt='ai robot'
+                            priority={true}
                             className='w-[260px] absolute top-[136px] lg:w-[300px] lg:top-[77.5px]'
                         />
                         <p className='lg:w-[400px] text-center lg:text-left w-[380px] mt-10 lg:mt-0  rounded-md border-2 border-blue-700 lg:border-none drop-shadow-[1px_1px_2px_blue] text-4xl lg:text-6xl text-white font-bold lg:absolute lg:top-[160px] lg:left-[700px]' ><span className='font-serif text-5xl lg:text-7xl'>&quot;</span>Innovating the Future, One <span className='text-blue-600 drop-shadow-[0_1px_1px_blue] '>Robot</span> at a Time<span className='font-serif text-5xl lg:text-7xl'>&quot;</span></p>

@@ -31,7 +31,7 @@ export default function Testimoni() {
                     <div className="embla__container h-full">
                         {data.map((item, key) => (
                             <div key={key} className="embla__slide flex flex-col items-center justify-center">
-                                <Image src={item.img} alt='person' width={150} height={150} className='w-[130px] h-[130px]  rounded-full object-cover' />
+                                <Image src={item.img} priority={true} alt='person' width={150} height={150} className='w-[130px] h-[130px]  rounded-full object-cover' />
                                 <div className='h-2 w-full -z-10 bg-gray-500 absolute top-0'></div>
                                 <p className='text-slate-200 text-center pt-4 pb-6 px-8 lg:px-16 text-sm'>{item.desc}</p>
                                 <p className='text-white  text-lg font-semibold'>{item.name}</p>
